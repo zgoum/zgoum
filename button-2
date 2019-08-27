@@ -1,0 +1,22 @@
+اولا: ابحث عن الوسم
+  ]]></b:skin>
+   و ضع الكود التالي فوقه:
+   <style>
+.TIMbutton{padding:15px;margin:15px;width:100%;text-align:center}
+.TIMdownload{margin:5px;padding:15px 25px;text-decoration:none;color:#fff;background:-webkit-gradient(to right,#16a085 0%,#F5D76E 50%,#D24D57 100%);background:linear-gradient(to right,#16a085 0%,#F5D76E 50%,#D24D57 100%);background-size:500%;border-radius:5rem;border:none;-webkit-appearance:none;-webkit-tap-highlight-color:transparent;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:1em;letter-spacing:0.05em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;outline:none;box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15)}
+.TIMdownload:hover{animation-name:gradient;-webkit-animation-name:gradient;animation-duration:2s;-webkit-animation-duration:s;animation-iteration-count:1;-webkit-animation-iteration-count:1;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}
+.TIMdownload:after{content:"\f019";font-family:fontawesome;font-size:14px;padding-right:10px}
+.TIMdemo{margin:5px;padding:15px 25px;text-decoration:none;color:#fff;background:-webkit-gradient(to right,#2980b9 0%,#F5D76E 50%,#e67e22 100%);background:linear-gradient(to right,#2980b9 0%,#F5D76E 50%,#e67e22 100%);background-size:500%;border-radius:5rem;border:none;-webkit-appearance:none;-webkit-tap-highlight-color:transparent;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:1em;letter-spacing:0.05em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;outline:none;box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15)}
+.TIMdemo:hover{animation-name:gradient;-webkit-animation-name:gradient;animation-duration:2s;-webkit-animation-duration:s;animation-iteration-count:1;-webkit-animation-iteration-count:1;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}
+.TIMdemo:after{content:"\f1d8";font-family:fontawesome;font-size:14px;padding-left:10px}
+@keyframes gradient{0%{background-position:0% 50%}100%{background-position:100%}}
+</style>
+ ثانيا: هذا كود ال HTML و هو لاظهار الاضافة في مواضيعك كلما عليك ان تدخل الى وضعية HTML و ضع الاكواد الاتية:
+ <div class="TIMbutton">
+  <a class="TIMdemo" href="#" target="_blank">معاينة</a>
+  <a class="TIMdownload" href="#" target="_blank">تحميل</a>
+</div>
+ . إذا لم تظهر ايقونات الموجود على زر العرض المعاينة و التحميل  ، فيرجى نسخ الرمز التالي ولصقه أعلى الرمز
+ </head>
+ الرمز هو:
+ <link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
